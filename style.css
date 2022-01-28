@@ -1,0 +1,83 @@
+body {
+  padding: 10px;
+}
+
+h1 {
+  font-size: 24pt;
+}
+
+p {
+  font-size: 12pt;
+}
+
+#terminallabelid {
+  margin: 1px;
+  padding: 1px;
+}
+
+#terminaltextdivid {
+  margin: 0px;
+  padding: 0px;
+}
+
+#terminaltextid {
+  margin: 2px;
+  padding: 2px;
+}
+
+#answerlabelid {
+  margin: 20px 1px 1px 1px;
+  padding: 0px;
+}
+
+#answerboxid {
+  margin: 0px;
+  padding: 0px;
+}
+
+#messagelabelid {
+  margin: 1px;
+  padding: 0px;
+}
+
+#messagetextdivid {
+  margin: 0px;
+  padding: 0px;
+}
+
+#messagetextid {
+  margin: 2px;
+  padding: 2px;
+}
+
+#hidecolorbuttonsbuttonid {
+  margin: 3px 0px 14px 0px;
+}
+
+#showcolorbuttonsbuttonid {
+  margin: 0px 0px 14px 0px;
+}
+
+#hidegamemodebuttonsbuttonid {
+  margin: 3px 0px 14px 0px;
+}
+
+#showgamemodebuttonsbuttonid {
+  margin: 0px 0px 14px 0px;
+}
+
+#hidedeckbuttonsbuttonid {
+  margin: 3px 0px 0px 0px;
+}
+
+#dark1colorbuttonid, #dark2colorbuttonid, #semidarkcolorbuttonid, #lightcolorbuttonid {
+  margin: 0px 0px 0px 16px;
+}
+
+#setgamemodembuttonid, #setgamemodedbuttonid, #setgamemodebbuttonid {
+  margin: 0px 0px 0px 16px;
+}
+
+#setdeck1Abuttonid, #setdeck1Bbuttonid, #setdeck1Cbuttonid, #setdeck1Dbuttonid, #setdeck1allbuttonid {
+  margin: 0px 0px 0px 16px;
+}

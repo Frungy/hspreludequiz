@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Name that function - Haskell Prelude vocab</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="p5.min.js"></script>
+		<script src="deck_typedef.js"></script>
+		<script src="deck_ntf3_1a.js"></script>
+		<script src="deck_ntf3_1b.js"></script>
+		<script src="deck_ntf3_1c.js"></script>
+		<script src="deck_ntf3_1d.js"></script>
+		<script src="preludetest01.js"></script>
+	</head>
+
+	<body>
+		<h1>A webapp to test your fluency with Haskell's Prelude</h1>
+		<h2>WARNING: This quizzer is a total jerk and will take points off for things like not knowing which erroring function generates which error message.</h2>
+		<br>
+
+		<button type="button" id="startbuttonid"> Start button </button>
+
+		<h2 id="questiontitle1id">
+			Name that function: from minimal example | Prelude Vocab level 1C
+		</h2>
+		
+		<h3 id="questiontitle2id">
+			What function name goes in place of -&gt;ANSWER&lt;- in order to cause the following
+		</h3>
+		
+		<h5 id="terminallabelid">
+			Terminal running GHCi
+		</h5>
+
+		<div id="terminaltextdivid">
+			<p id="terminaltextid" style="font-family: monospace">This is the terminal text box.  This message should never appear except maybe very briefly when the page loads.</p>
+		</div>
+		
+		<div id="answerdivid">
+			<h5 id="answerlabelid">Answer: </h5>
+			<input type="text" id="answerboxid"></input>
+		</div>
+
+		<div>
+			<p id="scoretextid">Your score: 0.</p>
+		</div>
+
+		<h5 id="messagelabelid">Message</h5>
+		<div id="messagetextdivid">
+			<p id="messagetextid">No message.</p>
+		</div>
+
+		<br>
+		<br>
+		<br>
+		<button type="button" id="dark1colorbuttonid"> Color scheme dark 1 </button>
+		<button type="button" id="dark2colorbuttonid"> Color scheme dark 2 </button>
+		<button type="button" id="semidarkcolorbuttonid"> Color scheme semi dark </button>
+		<button type="button" id="lightcolorbuttonid"> Color scheme light </button>
+		<button type="button" id="showcolorbuttonsbuttonid"> Show color scheme buttons </button>
+		<button type="button" id="hidecolorbuttonsbuttonid"> Hide color scheme buttons </button>
+		<button type="button" id="setgamemodembuttonid"> Game mode: name function from minimal example </button>
+		<button type="button" id="setgamemodedbuttonid"> Game mode: name function from description </button>
+		<button type="button" id="setgamemodebbuttonid"> Game mode: name function from both </button>
+		<button type="button" id="showgamemodebuttonsbuttonid"> Show game mode buttons </button>
+		<button type="button" id="hidegamemodebuttonsbuttonid"> Hide game mode buttons </button>
+		<button type="button" id="setdeck1Abuttonid"> Prelude vocab level 1A  </button>
+		<button type="button" id="setdeck1Bbuttonid"> Prelude vocab level 1B  </button>
+		<button type="button" id="setdeck1Cbuttonid"> Prelude vocab level 1C  </button>
+		<button type="button" id="setdeck1Dbuttonid"> Prelude vocab level 1D  </button>
+		<button type="button" id="setdeck1allbuttonid"> Prelude vocab level 1-all  </button>
+		<button type="button" id="showdeckbuttonsbuttonid"> Show vocab level choice buttons </button>
+		<button type="button" id="hidedeckbuttonsbuttonid"> Hide vocab level choice buttons </button>
+
+		<br>
+		<h5>
+			This is designed to help you with skill for programming in the Haskell language.
+			<br>
+			Prelude is the set of functions, types, typeclasses, etc that are available in Haskell without any imports.
+			<br>
+			This is a quiz for some of the Prelude functions.
+			<br>
+			This quiz is for vocabulary level 1C (these vocabulary levels are defined us, not any kind of official designations).
+			<br>
+			The answer key is <a href="1C_ans_key.txt">here</a>
+			<br>
+			The answer key is not full documentation.  See the Prelude documentation in Hackage for full documentation.
+		</h5>
+	</body>
+
+</html>
